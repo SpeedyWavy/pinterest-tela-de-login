@@ -12,56 +12,58 @@ body{
     margin: 0;
     padding: 0;
     margin-top: 0px;
+    margin-top: 12px;
 }
-#logo1{
-    margin-left: 35px;
-    
-    
-}
+
 #baixar{
     border: 0;
     background: #ff0000;
     border-radius: 35px;
-    height: 45px;
-    width: 100px;
-    font-size: 25px;
+    height: 35px;
+    width: 80px;
+    font-size: 18px;
     margin-bottom: 95%;
     margin-top: 12px;
     margin-bottom: 55px;
     float: right;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 500;
 }
 
 #bt-face{
-    margin-left: 10%;
-    margin-top: 8%;
-    width: 350px;
-    height: 30px;
+    margin-left: 20px;
+    margin-top: 4%;
+    width: 90%;
+    height: 35px;
     border: 0;
     border-radius: 35px;
-    background-color: #0051ff;
+    background-color: #3676ff;
     background-image: url('../img/9034971_logo_facebook_icon.png');
     background-repeat: no-repeat;
     background-size: 25px;
     background-position-x: 12%;
     background-position-y: center;
     font-size: 20px;
-    color: #fff;
+    color: #e2e2e2;
     
 }
 #bt-google{
-    margin-left: 10%;
+    margin-left: 20px;
     margin-top: 3%;
-    width: 350px;
-    height: 30px;
+    width: 90%;
+    height: 35px;
     border: 0px;
     border-radius: 35px;
-    background-color: #a1a1a1;
+    background-color: #ffffff;
     background-image: url(../img/2993685_brand_brands_google_logo_logos_icon.png);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position-y: center;
     background-position-x: 7px;
     font-size: 20px;
+    border: 2px solid #c2c2c2;
+    color: #5c5b5b;
 }
 #ou{
     margin-left: 47%;
@@ -69,53 +71,73 @@ body{
 }
 #email{
     border-radius: 15px;
-    height: 60px;
+    height: 45px;
     outline: none;
-    width: 80%;
-    margin-left: 39px;
+    width: 90%;
+    margin-left: 20px;
     text-indent: 15px;
     font-size: 20px;
+    border: 2px solid #a1a1a1;
 }
 #senha{
     border-radius: 15px;
-    height: 60px;
+    height: 45px;
     outline: none;
-    width: 80%;
-    margin-left: 39px;
+    width: 90%;
+    margin-left: 20px;
     text-indent: 15px;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
+    border: 2px solid #a1a1a1;
 }
 small{
-    margin-left: 39px;
+    margin-left: 24px;
     font-family: "Roboto", serif;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 500;
+
 }
-#entrar{
-    margin-left: 35px;
+#entrar {
+    margin-left: 20px;
     border: 0;
     border-radius: 35px;
-    background: #ff0000;
-    width: 80%;
+    background: rgb(196, 196, 196); 
+    width: 90%;
     height: 45px;
     margin-top: 25px;
+    color: rgb(112, 112, 112);
+    cursor: not-allowed;
+    transition: background 0.3s ease-in-out;
+    font-weight: 500;
+    font-size: 20px;
+}
+#entrar:hover {
+    background-color: rgb(255, 39, 39);
+    cursor: pointer;
+    color: #e2e2e2;
 }
 #conta{
     margin-left: 20%;
     font-size: 18px;
     font-family: "Roboto", serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
 }
 #termos{
     font-size: 13px;
     margin-left: 25px;
+    color: #a1a1a1;
 }
 #empresa{
     margin-left: 15%;
     font-size: 18px;
     font-family: "Roboto", serif;
+    font-weight: 300;
 }
 #termos2{
     font-size: 13px;
     margin-left: 75px;
+    color: #a1a1a1;
 }
